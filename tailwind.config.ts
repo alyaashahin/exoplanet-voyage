@@ -47,6 +47,13 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        cosmic: {
+          blue: "hsl(var(--cosmic-blue))",
+          purple: "hsl(var(--nebula-purple))",
+          gold: "hsl(var(--stellar-gold))",
+          deep: "hsl(var(--deep-space))",
+          glow: "hsl(var(--star-glow))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +64,16 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        'gradient-cosmic': 'var(--gradient-cosmic)',
+        'gradient-stellar': 'var(--gradient-stellar)',
+        'gradient-nebula': 'var(--gradient-nebula)',
+      },
+      boxShadow: {
+        'cosmic': 'var(--glow-cosmic)',
+        'stellar': 'var(--glow-stellar)',
+        'deep': 'var(--shadow-deep)',
       },
       borderRadius: {
         lg: "var(--radius)",

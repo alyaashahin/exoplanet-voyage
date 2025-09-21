@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
 import heroImage from "@/assets/exoplanet-hero.jpg";
 
 const Hero = () => {
@@ -40,23 +39,17 @@ const Hero = () => {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button 
-            asChild
             size="lg" 
             className="bg-cosmic-blue hover:bg-cosmic-blue/80 text-white shadow-cosmic transition-all duration-300 hover:scale-105"
           >
-            <Link to="/discoveries">
-              Explore Exoplanets
-            </Link>
+            Explore Exoplanets
           </Button>
           <Button 
-            asChild
             variant="outline" 
             size="lg"
             className="border-cosmic-purple text-cosmic-purple hover:bg-cosmic-purple hover:text-white transition-all duration-300"
           >
-            <a href="#videos">
-              Watch Videos
-            </a>
+            Watch Videos
           </Button>
         </div>
       </div>
